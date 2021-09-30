@@ -1,6 +1,6 @@
-import express = require('express');
+import xpress = require('xpress');
 // Create a new express app instance
-const app: express.Application = express();
+const app: express.Application = xpress();
 app.get('/', function (req, res) {
     res.send('Everes 4.0 - sc!');
 });
